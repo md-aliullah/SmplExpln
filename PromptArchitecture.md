@@ -2,7 +2,7 @@
 
 ---
 
-##  Triggering & Controlling “Deep Think” Reasoning
+## Triggering & Controlling “Deep Think” Reasoning
 
 GPT-5.1 has three internal modes for generating responses:
 
@@ -29,9 +29,10 @@ Use these high-performance phrases:
 | **Medium Reasoning** | Perform structured reasoning but keep it concise. |
 | **Deep Think** | Do a deep, deliberate reasoning pass internally. Analyze the problem from multiple angles. Refine your internal reasoning before producing the final answer. Return only the final answer. |
 
+
 ---
 
-##  Multimodal Prompting Techniques (GPT-5.1 Vision + Code + Audio)
+## Multimodal Prompting Techniques (GPT-5.1 Vision + Code + Audio)
 
 GPT-5.1 understands various input formats:
 
@@ -92,6 +93,7 @@ System instructions are the strongest control mechanism. Use them to set model b
 4. Choose the optimal path.
 5. Generate output using the requested format.
 
+
 ---
 
 ## Role Encyclopedia — High-Performance Personas
@@ -99,7 +101,8 @@ System instructions are the strongest control mechanism. Use them to set model b
 These personas consistently produce high-quality output. Use the persona pattern below when you need focused expertise.
 
 Example persona template:
-## Template 1: Multimodal Analysis Prompt
+
+### Template 1: Multimodal Analysis Prompt
 
 ```
 You are [role/persona].
@@ -127,7 +130,7 @@ Think step-by-step internally before answering. Reflect and refine your solution
 Begin now.
 ```
 
-## Template 2: Multimodal Analysis Prompt
+### Template 2: Multimodal Analysis Prompt
 
 ```
 <role>
@@ -151,7 +154,7 @@ The user intends to [goal].
 4. A redesigned version
 ```
 
-## Template 3: Debugging / Code Refactor
+### Template 3: Debugging / Code Refactor
 
 ```
 <role>
@@ -174,7 +177,7 @@ Code must be production-grade, scalable, and secure.
 3. Explanation
 ```
 
-## Template 4: Document-to-Structure
+### Template 4: Document-to-Structure
 
 ```
 <role>
