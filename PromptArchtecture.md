@@ -2,7 +2,7 @@
 
 ---
 
-## 3. Triggering & Controlling “Deep Think” Reasoning
+##  Triggering & Controlling “Deep Think” Reasoning
 
 GPT-5.1 has three internal modes for generating responses:
 
@@ -31,7 +31,7 @@ Use these high-performance phrases:
 
 ---
 
-## 4. Multimodal Prompting Techniques (GPT-5.1 Vision + Code + Audio)
+##  Multimodal Prompting Techniques (GPT-5.1 Vision + Code + Audio)
 
 GPT-5.1 understands various input formats:
 
@@ -99,6 +99,7 @@ System instructions are the strongest control mechanism. Use them to set model b
 These personas consistently produce high-quality output. Use the persona pattern below when you need focused expertise.
 
 Example persona template:
+## Template 1: Multimodal Analysis Prompt
 
 ```
 You are [role/persona].
@@ -173,18 +174,7 @@ Code must be production-grade, scalable, and secure.
 3. Explanation
 ```
 
-## Template 4: Deep Think Problem Solving
-
-```
-Engage Deep Think.
-
-1. Analyze the problem thoroughly.
-2. Examine multiple solution paths.
-3. Select the optimal one.
-4. Return only the final answer.
-```
-
-## Template 5: Document-to-Structure
+## Template 4: Document-to-Structure
 
 ```
 <role>
@@ -201,16 +191,3 @@ Convert text into structured data.
   "actions": []
 }
 ```
-
----
-
-## 9. Ready-to-Use Prompts for Common Tasks (examples)
-
-1. Learn Any Topic Fast
-   - Prompt: "Teach me [topic] like I'm an engineer. Use examples, diagrams, analogies. Provide a 1-hour learning path."
-
-2. ...
-
----
-
-*Note: This file fixes Markdown formatting issues (headings, lists, code blocks, and tables) so the document renders cleanly on GitHub.*
