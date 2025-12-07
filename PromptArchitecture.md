@@ -102,7 +102,7 @@ These personas consistently produce high-quality output. Use the persona pattern
 
 Example persona template:
 
-### Template 1: Multimodal Analysis Prompt
+### Template 1: Master Prompt
 
 ```
 You are [role/persona].
